@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <style>
+
+        td {
+            border: solid 1px;
+        }
+
+        .text-green {
+            color: #398605;
+            font-size: 8px;
+            font-weight: bold;
+        }
+
+        .text-border {
+            font-weight: bolder;
+        }
+        .xin_red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div align="center">
+    <table style="border: solid 1px">
+        <tr>
+            <td style="text-align: center" colspan="3" class="text-border">
+                1.会员登录和密码
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border">用户名:</td>
+            <td><input type="text"><span class="xin_red">*</span></td>
+            <td class="text-green"><input type="button" value="检测用户名">
+                5-15位，请使用英文
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border">密码:</td>
+            <td><input type="password"><span class="xin_red">*</span></td>
+            <td class="text-green">
+                5-15位，请使用英文<br>
+                密码不能与用户名相同
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border">再次输入密码:</td>
+            <td><input type="password"><span class="xin_red">*</span></td>
+            <td class="text-green">
+                再次输入密码必须一致
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center" colspan="3" class="text-border">
+                2.姓名和联系方式
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border">真实姓名:</td>
+            <td><input type="text"><span class="xin_red">*</span></td>
+            <td>
+                <input type="radio" name="sex">男
+                <input type="radio" name="sex">女
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border">电子邮箱:</td>
+            <td><input type="text"><span class="xin_red">*</span></td>
+            <td>
+                <div style="color: red;font-size: 8px;font-weight: bolder">非常重要</div>
+                <div class="text-green">这是客户与您联系的首选方式</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border">公司所在地:</td>
+            <td colspan="2">
+                <select>
+                    <option>
+                        ---请选择---
+                    </option>
+                    <option>
+                        ***有限公司
+                    </option>
+                    <option>
+                        4125有限公司
+                    </option>
+                    <option>
+                        56有限公司
+                    </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border" style="text-align: center" colspan="3">
+                3.公司名称和主营业务
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border">贵公司名称:</td>
+            <td><input type="text"><span class="xin_red">*</span></td>
+            <td>
+                <div class="text-green">填写在工商注册的公司</div>
+                <div class="text-green">无商品的个体经营者填写执照上的姓名</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-border">你的职位:</td>
+            <td colspan="2"><input type="text"><span class="xin_red">*</span></td>
+
+        </tr>
+        <tr>
+            <td class="text-border">主营行业:</td>
+            <td>
+                <select>
+                    <option>
+                        电子电工
+                    </option>
+                    <option>
+                        ***有限公司
+                    </option>
+                    <option>
+                        4125有限公司
+                    </option>
+                    <option>
+                        56有限公司
+                    </option>
+                </select>
+            </td>
+            <td>
+                <div style="color: red;font-size: 8px;font-weight: bolder">请正确选择，你会收到该行业的供求信息</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <input type="submit" value="确认提交" style="background:#42b983;">
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
